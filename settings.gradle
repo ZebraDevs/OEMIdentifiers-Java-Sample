@@ -1,0 +1,4 @@
+include ':commons-codec-1.14'
+include ':ini4j-0.5.4'
+include ':app'
+rootProject.name = "SaveDeviceIdentifiersToFile"

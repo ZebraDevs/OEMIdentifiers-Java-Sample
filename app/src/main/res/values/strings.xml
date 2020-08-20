@@ -1,0 +1,13 @@
+<resources>
+  <string name="app_name">Device Identifier Utility</string>
+
+  <!-- Permissions Strings -->
+  <string name="permissions_dialog_title">Permissions Required</string>
+  <string name="permissions_dialog_message">Accessing IMEI / Serial requires permissions be granted for this application - do you want to grant these permissions now?</string>
+
+  <!-- Error strings -->
+  <string name="unknown_error_dialog_title">An Unknown Error Occurred!</string>
+  <string name="unknown_error_message">Unknown error occurred, are you looking for an IMEI on non-wan device?</string>
+  <string name="permissions_error_message">Permissions not granted</string>
+
+</resources>

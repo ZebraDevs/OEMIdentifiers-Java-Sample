@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wap-provisioningdoc>
+
+  <!-- Serial Permission -->
+  <characteristic type="Profile">
+    <parm name="ProfileName" value="SerialPermission"/>
+    <characteristic version="8.3" type="AccessMgr">
+      <parm name="OperationMode" value="1" />
+      <parm name="ServiceAccessAction" value="4" />
+      <parm name="ServiceIdentifier" value="content://oem_info/oem.zebra.secure/build_serial" />
+      <parm name="CallerPackageName" value="" />
+      <parm name="CallerSignature" value="" />
+    </characteristic>
+  </characteristic>
+
+  <!-- IMEI Permission -->
+  <characteristic type="Profile">
+    <parm name="ProfileName" value="ImeiPermission"/>
+    <characteristic version="8.3" type="AccessMgr">
+      <parm name="OperationMode" value="1" />
+      <parm name="ServiceAccessAction" value="4" />
+      <parm name="ServiceIdentifier" value="content://oem_info/wan/imei" />
+      <parm name="CallerPackageName" value="" />
+      <parm name="CallerSignature" value="" />
+    </characteristic>
+  </characteristic>
+
+</wap-provisioningdoc>

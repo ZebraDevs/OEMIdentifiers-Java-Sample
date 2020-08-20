@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools">
+
+  <LinearLayout
+    android:id="@+id/base_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <ProgressBar
+      android:id="@+id/progress_bar"
+      android:layout_width="0dp"
+      android:layout_height="match_parent"
+      android:layout_weight="3"
+      android:layout_margin="4dp"
+      android:textStyle="bold"
+      android:textSize="8pt"
+      android:indeterminate="true" />
+
+    <TextView
+      android:id="@+id/message"
+      android:layout_width="0dp"
+      android:layout_height="match_parent"
+      android:layout_weight="7"
+      android:gravity="center_vertical"
+      android:layout_marginStart="4dp"
+      android:layout_marginEnd="4dp"
+      android:text="test test test"/>
+
+  </LinearLayout>
+</layout>

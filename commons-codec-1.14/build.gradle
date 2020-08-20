@@ -1,0 +1,2 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('commons-codec-1.14.jar'))
