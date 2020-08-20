@@ -24,10 +24,6 @@ public class PackageManagerHelper {
         SigningInfo signingInfo;
         signingInfo = cx.getPackageManager().getPackageInfo(cx.getPackageName(), PackageManager.GET_SIGNING_CERTIFICATES).signingInfo;
         sigs = signingInfo.getApkContentsSigners();
-        for (Signature sig : sigs)
-        {
-            Log.d("PackageManagerHelper", "Signature : " + sig.toCharsString() + " Length: " + sig.toCharsString().length());
-        }
         return sigs;
     }
 
@@ -40,11 +36,5 @@ public class PackageManagerHelper {
 
         // The String decoded to Base64 (3rd step)
         return Base64.encodeBase64String(decodedHex);
-    }
-
-    public static Signature[] getSig(Context cx) throws PackageManager.NameNotFoundException {
-        PackageManager packageManager = cx.getPackageManager();
-        Signature[] sigs = packageManager.getPackageInfo(cx.getPackageName(), GET_SIGNING_CERTIFICATES).signingInfo.getApkContentsSigners();
-        return sigs;
     }
 }
