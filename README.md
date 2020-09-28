@@ -11,7 +11,7 @@ Simply install & run the application - if this is the first time running a dialo
 This project welcomes contributions. Please check out our [Contributing guide](CONTRIBUTING.md) to learn more on how to get started.
 
 ## License
-[Zebra EULA](ZEBRA%20EULA%20LICENSE.md)
+[Zebra EULA](ZEBRA_EULA_LICENSE.md)
 
 ## Credit
 Based on Darryn Campbells sample for obtaining OEM Identifiers: https://github.com/darryncampbell/EMDK-DeviceIdentifiers-Sample
