@@ -5,15 +5,10 @@ import android.content.Context;
 import android.content.pm.PackageManager;
 import android.content.pm.Signature;
 import android.content.pm.SigningInfo;
-import android.os.Build;
-import android.util.Log;
 
 import org.apache.commons.codec.DecoderException;
 import org.apache.commons.codec.binary.Base64;
 import org.apache.commons.codec.binary.Hex;
-
-import static android.content.pm.PackageManager.GET_SIGNATURES;
-import static android.content.pm.PackageManager.GET_SIGNING_CERTIFICATES;
 
 public class PackageManagerHelper {
     @SuppressWarnings("deprecation")
