@@ -14,9 +14,7 @@ import com.zebra.jamesswinton.savedeviceidentifierstofile.R;
 import com.zebra.jamesswinton.savedeviceidentifierstofile.utilities.CustomDialog;
 
 import java.lang.ref.WeakReference;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 public class RetrieveOemInfo extends AsyncTask<Void, Void, Void> {

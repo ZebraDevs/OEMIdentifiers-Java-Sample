@@ -1,6 +1,5 @@
 package com.zebra.jamesswinton.savedeviceidentifierstofile.utilities;
 
-import android.content.Context;
 import android.os.Environment;
 import android.util.Log;
 

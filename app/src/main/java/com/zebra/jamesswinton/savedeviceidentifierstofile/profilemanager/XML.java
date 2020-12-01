@@ -2,7 +2,6 @@ package com.zebra.jamesswinton.savedeviceidentifierstofile.profilemanager;
 
 import android.content.Context;
 import android.content.pm.PackageManager;
-import android.util.Log;
 
 import com.zebra.jamesswinton.savedeviceidentifierstofile.utilities.PackageManagerHelper;
 

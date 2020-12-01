@@ -4,12 +4,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
-import android.widget.Toast;
 
 import com.zebra.jamesswinton.savedeviceidentifierstofile.deviceidentifiermanager.RetrieveOemInfo;
 import com.zebra.jamesswinton.savedeviceidentifierstofile.profilemanager.PermissionsActivity;
@@ -17,9 +15,6 @@ import com.zebra.jamesswinton.savedeviceidentifierstofile.utilities.CustomDialog
 import com.zebra.jamesswinton.savedeviceidentifierstofile.utilities.IniWriter;
 import com.zebra.jamesswinton.savedeviceidentifierstofile.utilities.PermissionsHelper;
 
-import org.ini4j.Ini;
-
-import java.io.IOException;
 import java.util.Map;
 
 public class MainActivity extends AppCompatActivity implements RetrieveOemInfo.OnOemInfoRetrievedListener {
