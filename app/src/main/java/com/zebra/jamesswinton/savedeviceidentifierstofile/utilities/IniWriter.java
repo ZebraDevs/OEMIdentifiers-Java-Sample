@@ -15,7 +15,7 @@ public class IniWriter {
     // File Path
     public static final String FILE_NAME = "identifiers.ini";
     public static final String FILE_PATH = Environment.getExternalStorageDirectory()
-            + File.separator + FILE_NAME;
+            + File.separator + "Download" + File.separator + FILE_NAME;
 
     // INI Sections
     private static final String SECTION_IDENTIFIERS = "IDENTIFIERS";
