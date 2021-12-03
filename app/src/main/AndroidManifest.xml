@@ -13,7 +13,7 @@
   <!-- A11 Content Provider Requirement -->
   <queries>
     <package android:name="com.zebra.zebracontentprovider" />
-    <provider android:authorities="oem_info" />
+    <package android:name="com.symbol.emdk.emdkservice" />
   </queries>
 
   <application
